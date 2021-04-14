@@ -1,1 +1,101 @@
-<h1> Welcome to my Website !!<h1>
+<!DOCTYPE html>
+<head>
+  <title>Home</title>
+  <meta charset="UFT-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <li style="font-family: Cardo;">Mariamawit Jembere's <span>/></span><span>Portfolio</span></li>
+        <li><a href="projects.html"><i class="fa fa-desktop"></i>  Projects</a></li>
+        <li><a href="research.html"><i class="fa fa-bar-chart"></i>  Research</a></li>
+        <li><a href="https://1drv.ms/b/s!ArH9JsMC6M4rg54GtmaO_gPVMLA7RA" target="_blank"><i class="fa fa-drivers-license"></i></i> Resume</a></li>
+      </ul>
+    </div>
+
+
+    <div id="welcome">
+      <div id="welcome_left">
+          <div id="welcome_text">
+              <h1 id="title">WELCOME TO MY G&#9673;LDEN PORTFOLIO</h1>
+          </div>
+          <div id="welcome_about">
+               <P>I&prime;m an aspiring <span>Software Developer</span> with a deep passion for helping others, and using <span>Tech for social good</span>.
+                 I am interested in harnessing the <span>power of software and data</span> to enable communities and address some of the <span>world&prime;s social problems</span>:
+                 education, poverty and human rights &#x262E;</P>
+               <P>I was born and raised in the capital of <span>Ethiopia</span>, Addis Abeba. Ever since my childhood, I fall in love with
+                  the Physics of everyday phenomena, the Biology of our ever-evolving ecosystem, the nature inspired Engineerings, and now,
+                   the <span>art of Computer Science</span> &#x1F60D;</P>
+                <P>I moved to the US in 2016 in pursuit of a better education. I have earned my AS in <span>Computer Science</span> and
+                  <span>Mathematics</span> from <span>SMC</span> and currently pursuing a BS in Computer Science with a specialization in Software Development at <span>UC Irvine</span> &#x1F393; </P>
+                <P>I have received several academic, leadership and need-based scholarships (+$10,000) during my time at SMC, and the distinction of
+                  <span>Chancellor's Excellence Scholar</span>, one of the most prestigious award at UC Irvine &#x1F62C;</P>
+                <P> When I am not in front of a monitor, you can find me in the kitchen attempting to recreate a Tasty recipe &#x1F373;</P>
+            </div>
+
+          <div class="button-div">
+            <button onclick=check() class="button">Content</button>
+          </div>
+      </div>
+      <div id="welcome_right">
+        <div class="meup">
+          <img id="meup"src="https://imagizer.imageshack.com/img923/3562/VvyCj4.jpg">
+        </div>
+
+        <div id="welcome_social"class="social">
+          <a href="https://www.linkedin.com/in/mariamawit-jembere-394559182/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="contacts.html" target="_blank" class="fa fa-google"></a>
+          <a href="https://github.com/mariamawit-a" target="_blank" class="fa fa-github"></a>
+          <a id="profile-link" href="https://www.freecodecamp.org/fcc6b457106-6657-4305-9ff6-fee6a99cdfb4" target="_blank"<i class="fa fa-free-code-camp"></i></a>
+        </div>
+
+        <div id="skills">
+          <ul>
+            <li data-icon="&#x1F4BB;"> <span>OOP languages</span> C++ Java Python Javascript
+            <li data-icon="&#x1F3A8;"> <span>Frontend</span> HTML/CSS EJS RWD MDL</li>
+            <li data-icon="&#x2699;"> <span>Backend</span> Node.JS/Express SQL(Novice)</li>
+            <li data-icon="&#x1F6E0;"> <span>Frameworks</span>  Bootstrap RESTful Routes APIs  </li>
+            <li data-icon="&#x1F4DA;"> <span>Libraries</span> JavaFX JQuery Matplotlib Beautiful Soap</li>
+            <li data-icon="&#x1F4F1;"> <span>Mobile</span> Swift(Novice)</li>
+            <li data-icon="&#x1F4C8;"> <span>Data Analysis</span> Python R(Novice) Excel</li>
+            <li data-icon="&#x1F680;"> <span>Others</span> Firebase Git/GitHub Postman</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+
+</body>
+
+
+
+<script>
+  function check(){
+    if (document.getElementById("openSidebarMenu").checked)
+    {
+      document.getElementById("openSidebarMenu").checked = false;
+    }
+    else
+    {
+      document.getElementById("openSidebarMenu").checked = true;
+    }
+  }
+</script>
+<script src="type.js"></script>
+
+</html>
